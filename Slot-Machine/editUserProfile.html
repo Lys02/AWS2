@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Profile</title>
+    <style>
+        td{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <head>Update the fields below</head>
+    <section>
+        <table>
+            <tr>
+                <td><label for="Pic">Edit Profile Picture</label><br>
+                    <input type="file" name="new_image" id="new_image">
+                </td>
+                <td id="user_image"><p><img src="" alt="User Image"></p></td>
+            </tr>
+            <!-- =========================T.B.D================================= -->
+            <tr>
+                <td><label for="UserName">Change User Name : </label></td>
+                <td ><input type="text" name="new_user_name" id="user_name" value="[Pre-Poppulate Old user name]"></td>
+            </tr>
+            <!-- ============Authenticate again and edit later========= -->
+            <tr>
+                <td><label for="Email">Email : </label></td>
+                <td id="user_email"><p>MyEmail</p></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date of birth : </label></td>
+                <td ><input type="text" name="DOB" id="DOB" value="[Pre-Poppulate Old user DOB]"></td>
+            </tr>            
+        </table>
+    </section>
+   
+    <div>
+        <button id="save_changes">Save Changes</button>
+    </div>
+    
+
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+        <script src="js/vendor.js"></script>
+        <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+        <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/cognito-auth.js"></script>
+</body>
+</html>

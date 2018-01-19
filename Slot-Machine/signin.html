@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+        <div>
+                <h2>Login form
+                    </h2>
+                    <br><br>
+                    <form id="signin_form">
+                    <label for="Email">Email : <input id="signin_email" type="email" placeholder="Enter your email"></label><br><br>
+                    <label for="Password">Password : <input id="signin_pwd" type="password" placeholder="Enter Password"></label><br><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+            <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+            <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+            <script src="js/config.js"></script>
+            <script src="js/cognito-auth.js"></script>
+</body>
+</html>

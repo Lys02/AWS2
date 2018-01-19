@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign-Up</title>
+   
+</head>
+<body>
+    <section>
+        <div>
+            <h2>Sign Up form
+                </h2>
+                <br><br>
+                <form id="signup_form">
+                <label for="Email">Email : <input id="signup_email" type="email" placeholder="Enter your email"></label><br><br>
+                <label for="Password">Password : <input id="signup_pwd1" type="password" placeholder="Enter Password"><small>(minimum 8 characters,require a number,special character,lowercase letter,uppercase letter</small></label><br><br>
+                <label for="Password">Confirm Password : <input id="signup_pwd2" type="password" placeholder="Confirm Password"></label><br><br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+    
+</body>
+</html>
